@@ -1,8 +1,13 @@
 ---
-title: 두 번째 포스팅 
-permalink: /categories/hello
-layout: category
-author_profile: true
-taxonomy: second posting
+title: "윤동주 작품집"
+excerpt: "윤동주의 시집"
+
+categories:
+  - 윤동주
+tags:
+  - 윤동주 
+
 ---
-안녕하십니까로
+
+서시
+이거 저거
