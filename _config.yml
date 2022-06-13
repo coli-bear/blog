@@ -21,11 +21,11 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "CB"
 description              : "돈만은 백수가 꿈"
-url                      : "https://coli-bear.github.io/blog/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/asserts/images/teaser.png"
-logo                     : "/asserts/images/logo.png"
+url                      : "https://coli-bear.github.io/blog/"
+baseurl                  :
+repository               :
+teaser                   : "/assets/images/teaser.png"
+logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
