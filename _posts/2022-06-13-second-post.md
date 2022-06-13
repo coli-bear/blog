@@ -1,7 +1,8 @@
 ---
 title: "윤동주 작품집"
 excerpt: "윤동주의 시집"
-
+toc: true
+toc_sticky: true
 categories:
   - 윤동주
 tags:
