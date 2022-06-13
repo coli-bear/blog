@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 title                    : "CBlog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -112,7 +112,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "iln1027@kakao.com"
+      url: "mailto:iln1027@kakao.com"
       # url: "mailto:your.name@email.com"
 #    - label: "Website"
 #      icon: "fas fa-fw fa-link"
