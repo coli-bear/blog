@@ -19,6 +19,7 @@ tags:
 
 ## Spring Security 기본 설정
 ### Sample code
+
 ```java
 @GetMapping("/")
 class SecurityController {
@@ -27,10 +28,13 @@ class SecurityController {
     }
 }
 ```
+
 - 브라우저 접속 결과
+
 ![img]({{site.url}}/assets/images/spring_security/01/no_security_request.png)
 
 ### Spring Security dependency
+
 ```groovy
 dependencies {
     ...
@@ -40,13 +44,19 @@ dependencies {
     ...
 }
 ```
+
 - 적용 후 접속 결과
+
 ![img]({{site.url}}/assets/images/spring_security/01/apply_security_request.png)
+
 - Username : user
 - password : random string 
+
 ![img]({{site.url}}/assets/images/spring_security/01/apply_security_request_password.png)
 - spring boot 시작시 위 사진과 같은 랜덤한 패스워드 생성
+
 #### 의존성 추가시 일어나는 일들
+
 - 서버가 기동되면 스프링 시큐리티의 초기화 작업 및 보안 설정이 이루어짐
 - 별도의 설정이나 구현을 하지 않아도 기본적인 웹 보안 기능이 현재 시스템에 연동되어 작동
   - 모든 요청은 인증이 되어야 자원에 접근이 가능
@@ -59,11 +69,13 @@ dependencies {
 
 ## 사용자 정의 보안 기능 구현
 ### WebSecurityConfigurerAdapter
+
 - 스프링 시큐리티의 웹 보안 기능 초기화 및 설정 
 - 해당 클레스가 `HttpSecurity`를 생성
   - HttpSecurity : 세부적인 보안 기능을 설정할 수 있는 API 제공(인증, 인가)
 
 #### CustomSecurityConfig 구현
+
 ```java
 @Configuration
 @EnableWebSecurity
@@ -82,6 +94,7 @@ public class SecurityConfig {
 ```
 
 - 위 방식은 `spring 2.7` 이상에서만 적용(아래는 이전)
+
 ```java
 @Configuration
 @EnableWebSecurity
@@ -100,7 +113,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 }
 ```
 #### Custom Spring Security user and password
+
 - 아래 설정을 통해 기본 사용자 설정을 변경할 수 있음
+
 ```yaml
 spring:
   security:
