@@ -28,7 +28,7 @@ class SecurityController {
 }
 ```
 - 브라우저 접속 결과
-![img](assets/images/spring_security/01/no_security_request.png)
+![img](../assets/images/spring_security/01/no_security_request.png)
 
 ### Spring Security dependency
 ```groovy
@@ -41,10 +41,10 @@ dependencies {
 }
 ```
 - 적용 후 접속 결과
-![img](assets/images/spring_security/01/apply_security_request.png)
+![img](../assets/images/spring_security/01/apply_security_request.png)
 - Username : user
 - password : random string 
-![img](assets/images/spring_security/01/apply_security_request_password.png)
+![img](../assets/images/spring_security/01/apply_security_request_password.png)
 - spring boot 시작시 위 사진과 같은 랜덤한 패스워드 생성
 #### 의존성 추가시 일어나는 일들
 - 서버가 기동되면 스프링 시큐리티의 초기화 작업 및 보안 설정이 이루어짐
