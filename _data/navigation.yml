@@ -8,5 +8,5 @@ main:
     url: /categories/
   - title: "tags"
     url: /tags/
-  - title: "Spring Security"
+  - title: "spring security"
     url: /categories/spring-security
