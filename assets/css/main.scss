@@ -33,11 +33,11 @@ html {
 
 .highlight {
   font-family: $monospace;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 }
 
 .language-plaintext {
+  background-color: #c0ffee;
   font-family: $monospace;
   font-size: $type-size-5;
-  background: #c0ffee;
 }
