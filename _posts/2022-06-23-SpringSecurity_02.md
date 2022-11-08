@@ -5,13 +5,13 @@ toc: true
 toc_sticky: true
 categories:
 
-- Spring Security
+- framework
 
 tags:
 
 - java
-- Spring Boot
-- Spring Security
+- spring-boot
+- spring-security
 
 ---
 

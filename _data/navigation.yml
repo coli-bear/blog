@@ -8,5 +8,3 @@ main:
     url: /categories/
   - title: "tags"
     url: /tags/
-  - title: "spring security"
-    url: /categories/#spring-security
