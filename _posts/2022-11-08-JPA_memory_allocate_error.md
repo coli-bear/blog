@@ -1,5 +1,5 @@
 ---
-title: "JVM: error=12, Cannot allocate memory or error=12"
+title: "JVM 메모리 할당 실패"
 toc: true
 toc_sticky: true
 categories:
